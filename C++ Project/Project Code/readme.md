@@ -77,6 +77,7 @@ and thus the Augmented Matrix, which the input file must contain is :
 ***NOTE :***	<br/>
 * The Cursor must be after the last numerical value and **NOT** on the next line.	<br/>
 * The input file must be saved before running the code files	<br/>
+* The system of equations must have a unique solution	<br/>
 
 <br/>
 
