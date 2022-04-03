@@ -116,6 +116,6 @@ Solution to the System of Equations is
 <br/>
 
 ## Sources
-* Initializing a vector of objects : (https://stackoverflow.com/questions/7558280/initializing-an-array-of-objects)
+* Initializing a vector of objects <br/> (https://stackoverflow.com/questions/7558280/initializing-an-array-of-objects)
 
-*  The Project Topic was inspired by the LU Decomposition carried out in a previous code which I had written for Cubic_Spline Interpolation in C Language. (https://github.com/kirtan2605/IITM_EE1103)
+*  The Project Topic was inspired by the LU Decomposition carried out in a previous code which I had written for Cubic Spline Interpolation in C Language. <br/> (https://github.com/kirtan2605/IITM_EE1103)
