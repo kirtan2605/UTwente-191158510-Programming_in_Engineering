@@ -5,3 +5,7 @@ The project is a simple C++ Solver for a System of Linear Equations, using LU De
 
 ## Requirements
 The project has been compiled using 'g++' during its development, and hence it is neede to run the files. Furthermore, the project has been developed on a Linux Kernel (OS: Fedora 35), hence it might need some supervision when running on other kernels.
+<br/>
+
+## Installation Instructions : 
+The project can be installed by downloading the Latest Version of codes and unzipping the file in the required destination. It can be cloned from github as well.
