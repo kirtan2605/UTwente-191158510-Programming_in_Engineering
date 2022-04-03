@@ -2,27 +2,29 @@
 
 
 # Table of contents
-1. [Introduction]
+1. [Introduction](#introduction)
 2. [Requirements](#requirements)
 3. [Installation](#installation)
 4. [Usage](#usage)
     1. [Input](#input)
-    1. [Compile](#compile)
-    1. [Run](#run)
+    2. [Compile](#compile)
+    3. [Run](#run)
+    3. [Output](#output)
+5. [Author](#author)
 
 <br/>
 
-## Introduction <a name="introduction"></a>
+## Introduction
 The project is a simple C++ Solver for a System of Linear Equations, using LU Decomposition. This method includes decomposing a square matrix into  the product of a lower-triangular and an upper-triangular matrix. After carrying out this decomposition, we can obtain a the solution array by simple forward-substitution followed by a backward substitution. This is one of the simplest ways to obtain the result for a system of linear equations.
 
-## Requirements <a name="requirements"></a>
+## Requirements
 The project has been compiled using the  _g++_  compiler during its development, and hence it is neede to run the files. 
 
 Furthermore, the project has been developed on a *Linux Kernel* (OS: Fedora 35), hence it might need some supervision when running on other kernels.
 
 <br/>
 
-## Installation <a name="installation"></a>
+## Installation
 The project can be installed by downloading the code files in the required destination. It can be cloned from github as well.
 
 The project consists of **3 code files** : 
@@ -65,17 +67,55 @@ and thus the Augmented Matrix, which the input file must contain is :
 -3 0 1 5 3
 ```
 <br/>
-***NOTE :*** 
-* The Cursor must be after the last numerical value and **NOT** on the next line.
-* The input file must be saved before running the code files
+***NOTE :***	<br/>
+* The Cursor must be after the last numerical value and **NOT** on the next line.	<br/>
+* The input file must be saved before running the code files	<br/>
 
 <br/>
 
-### Compile <a name="compile"></a>
+### Compile
+Before execution, the code needs to be compiled. This can be done by running the following command after opening a terminal in the same directory as the code files :
+```bash
+$ g++ main.cpp -lm
+```
+Alternatively, you can name the executable file formed
+```bash
+$ g++ main.cpp -lm -o SysEqnSolver
+```
 
 <br/>
 
-### Run <a name="run"></a>
+### Run
+To execute the code, we run the executable file. The executable file takes 1 input parameter : 
+> n : number of variables in the system of equations
 
+In our example, ```n = 4```, since it is a 4 variable system of linear equations
 
+Execute the file by running the following commands in the terminal opened in the same directory :
+```bash
+$ ./a.out 4
+```
+Alternatively, we can run the custom-named executable as
+```bash
+$ ./SysEqnSolver 4
+```
 
+### Output
+The solution for the value of the variables is displayed in the terminal : 
+```bash
+Solution to the System of Equations is
+	Variable : a = -2
+	Variable : b = 3
+	Variable : c = 4.5
+	Variable : d = -1.5
+```
+<br/>
+
+## Author
+
+<br/>
+
+## Sources
+* Initializing a vector of objects : (https://stackoverflow.com/questions/7558280/initializing-an-array-of-objects)
+
+*  The Project Topic was inspired by the LU Decomposition carried out in a previous code which I had written for Cubic_Spline Interpolation in C Language. (https://github.com/kirtan2605/IITM_EE1103)
