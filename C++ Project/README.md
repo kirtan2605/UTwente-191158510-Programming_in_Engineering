@@ -1,6 +1,6 @@
 # System of Linear Equations Solver using LU Decomposition
 The project is a simple C++ Solver for a System of Linear Equations, using LU Decomposition. This method includes decomposing a square matrix into  the product of a lower-triangular and an upper-triangular matrix. After carrying out this decomposition, we can obtain a the solution array by simple forward-substitution followed by a backward substitution. This is one of the simplest ways to obtain the result for a system of linear equations.
-<br/>
+
 <br/>
 
 ## Requirements
@@ -23,7 +23,6 @@ and **1 input file** :
 
 To succesfully run the project, all these need to be in the same directory.
 
-<br/>
 <br/>
 
 ## Usage
@@ -94,14 +93,13 @@ Solution to the System of Equations is
 	Variable : c = 4.5
 	Variable : d = -1.5
 ```
-<br/>
+
 <br/>
 
 ## Author
 *Kirtan Patel (2022)*
 Email ID : kirtan_2605@yahoo.com <br/>
 
-<br/>
 <br/>
 
 ## Sources
