@@ -54,8 +54,7 @@ and thus the Augmented Matrix, which the input file must contain is :
 ***NOTE :***	<br/>
 * The Cursor must be after the last numerical value and **NOT** on the next line.	<br/>
 * The input file must be saved before running the code files	<br/>
-
-<br/>
+* 
 
 ### Compile
 Before execution, the code needs to be compiled. This can be done by running the following command after opening a terminal in the same directory as the code files :
