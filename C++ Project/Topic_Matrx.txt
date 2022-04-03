@@ -1,0 +1,18 @@
+[-] Objects
+[-] Pointers
+
+[-] Functions
+[ ] Templates
+
+[-] Classes
+[-] Constructor
+
+[-] Input/Output Files
+
+[-] Well documented
+
+[-] Program divided into different files (Readable)
+[-] Headers
+
+--------------------------------------------------------
+Use call by reference to change the local variable of caller function
