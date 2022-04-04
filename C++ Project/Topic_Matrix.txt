@@ -2,7 +2,7 @@
 [-] Pointers
 
 [-] Functions
-[ ] Templates
+[-] Templates
 
 [-] Classes
 [-] Constructor
